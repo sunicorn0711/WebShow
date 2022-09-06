@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | WebTest</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" style="width: 100vw; height: 100vh; background: #231F20"></canvas>
+    <canvas id="unity-canvas" style="width: 99vw; height: 95vh; background: #231F20"></canvas>
     <script src="Build/test.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -17,8 +17,8 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
 
         var canvas = document.querySelector("#unity-canvas");
-        canvas.style.width = "100vw";
-        canvas.style.height = "100vh";
+        canvas.style.width = "99vw";
+        canvas.style.height = "95vh";
         canvas.style.position = "fixed";
 
         document.body.style.textAlign = "left";
